@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# ML heavy deps (opcional, ver README para variantes GPU/CPU):
+# torch
+# torchvision
+# torchaudio
+
+

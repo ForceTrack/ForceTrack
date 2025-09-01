@@ -1,0 +1,7 @@
+numpy>=1.26
+opencv-python>=4.9
+pillow>=10.0
+pydantic>=2.7
+python-dotenv>=1.0
+
+

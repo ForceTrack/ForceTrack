@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+.coverage.*
+
+# Data and models
+data/
+models/
+runs/
+checkpoints/
+
+

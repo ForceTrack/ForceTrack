@@ -1,0 +1,28 @@
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+extend-exclude = [
+    "data/",
+    "models/",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [
+    "data/",
+    "models/",
+]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+
